@@ -1,7 +1,7 @@
 #main {
   font-family: Consolas, sans-serif;
-  background: #794141;
-  background: linear-gradient(110deg, #eb4559 50%, #f78259 50%);
+  background: #000000;
+  background: linear-gradient(110deg, #000000 50%, #d6d6d6 50%);
   height: 100vh;
   text-align: center;
   display: flex;
@@ -11,9 +11,9 @@
     display: flex;
     font-size: 1.3rem;
     .navbar-brand {
-      font-family: "Pacifico", cursive;
-      color: #f8eeee;
-      font-size: 3rem;
+      font-family: "Bungee";
+      color: #e50000;
+      font-size: 4rem;
     }
   }
   .main-row {
@@ -41,15 +41,15 @@
         font-size: 3rem;
       }
       p {
-        color: #f8eeee;
+        color: #000000;
         font-size: 1.2rem;
       }
       .btn{
         font-family: Consolas, sans-serif;
         letter-spacing: 2px;
         border: none;
-        background-color: #282c34;
-        color: #fff;
+        background-color: #000000;
+        color: #e50000;
         font-size: 1.1rem;
         text-transform: uppercase;
         margin: 10px 0;
