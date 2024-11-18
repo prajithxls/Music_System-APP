@@ -8,6 +8,7 @@ import Brand from "./Brand";
 import DropDownProfile from "./DropDownProfile";
 import {Avatar, Button} from "@material-ui/core";
 import {ThemeContext} from "../../api/Theme";
+import userIcon from '../assets/img/profile.jpeg';
 
 function Navigation() {
 
@@ -40,7 +41,7 @@ function Navigation() {
                 <Button className={"Dropdown-btn"}
                         endIcon={isLanguageListOpen ? <ExpandMoreIcon/> : <ExpandLessIcon/>}>
                     <div className="wrapper">
-                        <p>Music Languages</p>
+                        <p style={{color:"white"}}>Languages</p>
                     </div>
                 </Button>
                 {
@@ -50,8 +51,8 @@ function Navigation() {
                 }
             </div>
             <div className="profile" onClick={handleOpenProfile}>
-                <Button className={"Dropdown-btn"}
-                        startIcon={<Avatar style={{width:'30px',height:'30px',padding:'18px'}} >VS</Avatar>}
+                <Button className={"Dropdown-btn"} style={{color:"red"}}
+                        startIcon={<Avatar style={{width:'30px',height:'30px',padding:'18px'}} ><img src={userIcon}></img></Avatar>}
                         endIcon={isOpenProfile ? <ExpandMoreIcon/> : <ExpandLessIcon/>}>
 
                 </Button>

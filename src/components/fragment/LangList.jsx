@@ -20,7 +20,7 @@ function LangList(props) {
         }
     }, [isSelected, useStyle.button.onHover])
     return (
-        <Button style={onSelect} onClick={handleSelected}>
+        <Button style={{color:"white"}} onClick={handleSelected}>
             {props.item}
         </Button>
     );

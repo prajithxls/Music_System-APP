@@ -36,12 +36,12 @@ function Profile() {
         <Container>
             <div className={"Profile"}>
                 <div className="top-profile">
-                    <Avatar variant={"rounded"} src={require("../assets/img/avatar2.jpg")}
+                    <Avatar variant={"rounded"} src={require("../assets/img/newavatar.jpg")}
                             style={{width: "150px", height: "150px"}}>
-                        VS
+                        n
                     </Avatar>
                     <div className="profile-detail">
-                        <h3>Vishal Singh</h3>
+                        <h3 style={{color:"black"}}>Anonymous</h3>
                         <span className={"profile-playlist"}>
                             <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay}
                                             href={"/home/playlist/instrumental"} title={"Instrumental"}/>

@@ -7,14 +7,14 @@ import {Facebook, Instagram, LinkedIn, Portrait, Twitter} from "@material-ui/ico
 const Developer = () => {
     return (
         <div className={"Developer"}>
-            <h3 className={"Developer-head"}>Meet the developer</h3>
+            <h3 className={"Developer-head"}>About the Website</h3>
             <div className="Developer-profile">
                 <div className="Developer-profileCard">
-                    <img src={AvatarImage} alt="Profile"/>
+                    {/* <img src={AvatarImage} alt="Profile"/> */}
                     <div className={"Card-details"}>
-                        <h3>Prajith</h3>
-                        <p>Full Stack developer</p>
-                        <p>Gamer</p>
+                        <h3>Music Player</h3>
+                        <p></p>
+                        <p></p>
                     </div>
                 </div>
                 <div className="Developer-profileDetails">

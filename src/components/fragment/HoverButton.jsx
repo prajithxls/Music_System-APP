@@ -15,7 +15,7 @@ function HoverButton({text,variant,Icon}) {
     };
     return (
         <Link to={"/home/"+text.toLowerCase()} className={"hb"}>
-            <Button style={currStyle}
+            <Button style={{color:"red"}}
                     startIcon={Icon?<Icon/>:null}
                     variant={variant}   
                     onMouseOver={handleOver} onMouseOut={handleOut}>

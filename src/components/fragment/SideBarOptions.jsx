@@ -9,7 +9,7 @@ function SideBarOptions(props) {
     const sideBarRef = useRef();
     const href = props.href;
     return (
-        <Button onClick={()=>{sideBarRef.current.click();}} className={className} startIcon={Icon && <Icon/>}>
+        <Button onClick={()=>{sideBarRef.current.click();}} style={{color:"red"}} className={className} startIcon={Icon && <Icon/>}>
             <Link ref={sideBarRef} to={href}/>
             {title}
         </Button>

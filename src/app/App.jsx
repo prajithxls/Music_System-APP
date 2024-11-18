@@ -28,7 +28,7 @@ const App = () => {
     },[dispatch, language]);
 
     return (
-        <ThemeContext.Provider value={themes.light}>
+        <ThemeContext.Provider value={themes.dark}>
             <>
                 <Router>
                     <Switch>

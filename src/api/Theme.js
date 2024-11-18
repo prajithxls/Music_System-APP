@@ -1,4 +1,5 @@
 import React from "react";
+import {useState} from "react";
 
 export const themes = {
     light: {
@@ -6,7 +7,7 @@ export const themes = {
         subTheme: "#a2d5f2",
         component:{
             backgroundColor: "#f6f6f6",
-            color: "#2b2024",
+            color: "red",
         },
         button:{
             onHover:{
@@ -28,10 +29,10 @@ export const themes = {
     },
     dark: {
         theme:"#4ecca3",
-        subTheme: "#a2d5f2",
+        subTheme: "red",
         component:{
-            backgroundColor: "#232931",
-            color: "#eeeeee",
+            backgroundColor: "#000000",
+            color: "white",
         },
         button:{
             onHover:{
@@ -40,7 +41,7 @@ export const themes = {
             },
             contained:{
                 backgroundColor: "#07689f",
-                color:"black"
+                color:"white"
             },
             outlined:{
                 backgroundColor:"transparent",
@@ -57,7 +58,7 @@ export const ThemeContext = React.createContext(
     themes.light
 );
 
-/*
+
 export const ThemeProvider = (props) => {
     const [theme,setTheme] = useState("light");
     return (
@@ -65,4 +66,4 @@ export const ThemeProvider = (props) => {
             {props.children}
         </ThemeContext.Provider>
     );
-}*/
+}
